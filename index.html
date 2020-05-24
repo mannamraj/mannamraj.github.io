@@ -99,10 +99,11 @@ width: 55px;
 color: #ffffff !important;
 }
 .content_img_bar{
-    background-image: url(./img/contentbar.jpg);
+    background-image: url(./img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 406px;
+    background-position: 20%
 }
 
 .h2Heading{
@@ -123,7 +124,7 @@ color: #ffffff !important;
 	}
 	.mesh{
 	width: 100%;
-    background: #413e3e;
+    #background: #413e3e;
     position: absolute;
     opacity: 0.7;
 	height:406px;
@@ -131,12 +132,30 @@ color: #ffffff !important;
 	.menulable{
 	color:black !important;
 	}
+	.cnytitle{
+	color: #69349f !important;
+	}
+	
+	.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #69349f !important;
+    background-image: none;
+    border: 0px solid transparent !important;
+    border-radius: 4px;
+}
   </style>
 </head>
 <body>
 
 <nav class="navbar navbar-default navbar-inverse menu" role="navigation">
+<a class="navbar-brand cnytitle" href="#">XYZ TECHNOLOGY</a>
    <div class="container-fluid" id="navfluid">
+        
        <div class="navbar-header">
            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
                <span class="sr-only">Toggle navigation</span>
@@ -147,6 +166,8 @@ color: #ffffff !important;
        </div>
        <div class="collapse navbar-collapse" id="navigationbar">
            <ul class="nav navbar-nav">
+
+
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#" class="menulable">Products</a></li>
       <li><a href="#" class="menulable">Services</a></li>
